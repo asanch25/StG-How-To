@@ -20,3 +20,9 @@ Contents
 
    usage
    api
+   wf operation
+   retrieving data from stgdaq
+   cup current recording
+   stg magnet control operation
+   spectcl operation
+   pressure recording
