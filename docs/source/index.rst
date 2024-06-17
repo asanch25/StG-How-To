@@ -20,7 +20,7 @@ Contents
 
    usage
    api
-   wf operation
+   wfoperation
    retrieving data from stgdaq
    cup current recording
    stg magnet control operation
