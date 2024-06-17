@@ -1,7 +1,7 @@
 St. George Operation
 ====================
 
-_:test
+.. _whatis:
 
-test
-----
+St. George Magnet Controls
+--------------------------
