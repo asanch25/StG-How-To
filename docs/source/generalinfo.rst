@@ -10,7 +10,7 @@ What is St. George?
 
 Dipole Magnets
 ------------
-.. image:: brho.png
+.. image:: images/brho.png
     :alt: Example Image
     :width: 400px
     :align: center
