@@ -29,6 +29,8 @@ Contents
    usage
    api
    generalinfo
+   stgoperation
+   dataaq
    wfoperation
    retrieving data from stgdaq
    cup current recording
