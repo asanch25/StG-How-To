@@ -12,6 +12,11 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
+
+.. math::
+   \\frac{dX}{dt} &= vN - \\frac{\\beta_0}{N}XY - \\mu X \\
+   \\frac{dY}{dt} &= \\frac{\\beta_0}{N}XY - \\gamma Y - \\mu Y
+
 Creating recipes
 ----------------
 
