@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'St. George How to Guide'
+copyright = '2024, Adam Sanchez'
+author = 'Adam Sanchez'
 
 release = '0.1'
 version = '0.1.0'
