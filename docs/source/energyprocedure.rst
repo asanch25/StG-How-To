@@ -9,8 +9,10 @@ On the 5U side of things, we need to actually lower the terminal voltage so that
 * Double check that the 5U master reference is on
 * Close cup 2, the cup directly after the analyzing magnet
 * Lower the 5U analyzing magnet slowly, and you want to end ~0.2G above where you want to be as the magnet does tend to drift down a bit
+
   * If you are doing a larger energy step, you might want to lower the terminal voltage in tandem with lowering the analyzing magnet current so that you don't have to refind it afterwards.
   * For smaller energy steps, you should close cup 1 and do the steps seperately.
+
 * Turn off the liner by setting the CPO gain from 70% to 30% and turning off the liner power supply
 * Bring down the terminal voltage until you have
 * Scale the 5U triplet and 5U beamline Wien filter according to the suggested values in the run spreadsheet
