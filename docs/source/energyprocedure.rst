@@ -46,8 +46,8 @@ Once these are complete, and in parallel with the steps needed to scale down in 
 * Insert the 2mm collimator into HIPPO
 * Maximize transmission between HIPPO entrance and detector cup
 
- * Make sure current on the mass slits is <2nA
- * Make sure transmission is as close to 100% as possible. Rememeber that the current may read lower values at the detector cup due to residual vacuum interactions.
+  * Make sure current on the mass slits is <2nA
+  * Make sure transmission is as close to 100% as possible. Rememeber that the current may read lower values at the detector cup due to residual vacuum interactions.
 
 * Take collimator out
 * Close remote slits all the way
