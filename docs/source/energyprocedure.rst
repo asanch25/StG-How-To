@@ -59,6 +59,7 @@ Once these are complete, and in parallel with the steps needed to scale down in 
 * Add gas to HIPPO and open elastic shutters
 * Bias MCPs and Si detector
 * Test rejection
+
  * Make sure the scope is set to trigger on the correct signal
  * Double check that the remote slits are all the way in
  * Triple check that the Si detector and MCP2 are retracted
@@ -66,6 +67,7 @@ Once these are complete, and in parallel with the steps needed to scale down in 
  * Insert MCP1 and open the remote slits symmetrically until you read ~1kHz on the scope
  * Make sure detector cup is out and then lower MCP2, make sure it is also at ~1kHz
  * Insert Si detector, make sure it is ~1kHz
+
 * Record HIPPO entrance and exit cup currents
 * Record starting gas pressure
 * Begin Run
