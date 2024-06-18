@@ -12,7 +12,7 @@ Welcome to the St. George How to Guide!
 #. St. George Operation
 #. Energy Change Procedure
 #. HIPPO Guide
-#. Data retrival and conversion
+#. Data retrieval and conversion
 
 
 .. note::
