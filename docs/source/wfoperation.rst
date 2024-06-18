@@ -1,7 +1,7 @@
 Wf Operation
 ============
 
-This is a short guide on how to operate the St. George Wien filter (WF).
+This is a short guide on how to operate the St. George Wien filter (WF). Infor
 
 Opening WF controls
 -------------------
