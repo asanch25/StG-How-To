@@ -52,14 +52,15 @@ Cup Current Recording
 
 Quartz Viewing
 ---------------------
+.. note::
 
-
+   **Make sure to bias down Si detector and MCPs before sending the beam to the detector chamber quartz**
 
 Sending Beam to Si detector
 ---------------------------
 .. note::
 
-   Pay close attention to this section unless you want to be reason that an experiment ends prematurely :)
+   **Pay close attention to this section unless you want to be reason that an experiment ends prematurely :)**
 
 
 
