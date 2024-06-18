@@ -32,6 +32,7 @@ Contents
    stgoperation
    dataaq
    wfoperation
+   HIPPOoperation
    retrieving data from stgdaq
    cup current recording
    stg magnet control operation
