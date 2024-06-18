@@ -1,6 +1,6 @@
 St. George Energy Change Procedure
 ==================================
-This section will go over how we go about changing energies on St. George, as well as what should be done on the 5U to achieve this. These steps are meant to be done in the order they are presented, but many of them can be done in parellel with the help of the second shifter. If you are a St. George member on shift it is your job to know, or learn how to, delegate some of these tasks for the second shifter so that energy changes can have a quicker turnaround. This *will* take forever if you try to do it by yourself.
+This section will go over how we go about changing energies on St. George, as well as what should be done on the 5U to achieve this. These steps are meant to be done in the order they are presented, but many of them can be done in parallel with the help of the second shifter. If you are a St. George member on shift it is your job to know, or learn how to, delegate some of these tasks for the second shifter so that energy changes can have a quicker turnaround. This *will* take forever if you try to do it by yourself.
 
 5U Steps
 --------
