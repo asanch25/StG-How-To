@@ -43,7 +43,7 @@ Quadrupole Magnets
 In addition to the 6 dipole magnets, St. George also has 11 quadrupole magnets for focusing and defocusing the beam. The important thing to remember about quadrupole magnets is that if the quadrupole focuses in one direction, lets say in the x direction, it defocuses in the other direction.  It is for this reason that in every application I can think of, quadrupole magnets come in pairs or even triplets. 
 
 
-.. image:: images/brho.png
+.. image:: images/quadmagnet.jpg
     :width: 400
     :align: center
 
