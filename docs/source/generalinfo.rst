@@ -47,8 +47,14 @@ The Wien filter is the location where the majority of the rejection of the prima
 
 .. math::
 
-   F_B = qvB = \frac{mv^2}{\rho} \rightarrow B\rho = \frac{p}{q} \\
-   F_E = qE = \frac{mv^2}{\rho} \rightarrow E\rho = \frac{p}{q}v \\ 
+   F_B = qvB = \frac{mv^2}{\rho} \rightarrow B\rho = \frac{p}{q} 
+
+.. math::
+
+   F_E = qE = \frac{mv^2}{\rho} \rightarrow E\rho = \frac{p}{q}v 
+
+.. math::
+
    v = \frac{E\rho}{B\rho} 
 
   
