@@ -210,8 +210,7 @@ Hornet Gauge Guide
      - Row 4, Col 2
      - Row 4, Col 3
 
-t
-Copy code
+
 .. list-table:: Table Title
    :widths: 50 50
    :header-rows: 1
