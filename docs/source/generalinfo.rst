@@ -52,7 +52,9 @@ The Wien filter is the location where the majority of the rejection of the prima
    v = \frac{E\rho}{B\rho} 
 
   
-   
+Recycling
+--------
+"Recycling" of the magnets is required any time we need to set a magnet to a higher field than it currently is at. The reason for this is the effect of hysteresis on the magnetic field of the magnets. 
 
 
 Misc Terms
