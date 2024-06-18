@@ -11,6 +11,10 @@ Gamma Ray Experiment, or St. George is a recoil mass separator located at the Un
 
 :math:`\alpha` and :math:`\gamma`.
 
+.. math::
+
+   \alpha, \gamma
+
 Dipole Magnets
 ------------
 .. image:: images/brho.png
