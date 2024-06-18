@@ -23,10 +23,16 @@ The St. George Dipole magnets are responsible for the charge state selection of 
 
 .. math::
 
-   F = ma = \frac{mv^2}{\rho} \\
-   F = qvB \\ 
-   qvB = \frac{mv^2}{\rho} \\
-   B\rho = \frac{p}{q} \\
+   F = ma = \frac{mv^2}{\rho} 
+
+.. math::
+   F = qvB 
+
+.. math::
+   qvB = \frac{mv^2}{\rho} 
+
+.. math::
+   B\rho = \frac{p}{q} 
 
 
 
