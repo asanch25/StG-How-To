@@ -16,12 +16,6 @@ Gamma Ray Experiment, or St. George is a recoil mass separator located at the Un
 Dipole Magnets
 ------------
 
-.. figure:: images/brho.png
-    :width: 400
-    :align: center
-
-    Diagram showing the impact of :math:`B\rho` on the trajectory of a charged particle in a dipole magnet.
-    
 
 The St. George Dipole magnets are responsible for the charge state selection of the recoils after being created in the HIPPO gas target. In analogy with traditional optics, a dipole magnet seperates particles by p/q much like a prism seperates light by wavelength.
 
@@ -38,7 +32,15 @@ The St. George Dipole magnets are responsible for the charge state selection of 
 .. math::
    B\rho = \frac{p}{q} 
 
+where :math:`\rho` is the bending radius of the dipole magnet. I find the most useful interpretation of :math:`B\rho` to be how "hard" it is to bend a particle around the dipole. A particle with a higher :math:`B\rho` is harder moving faster and harder to bend, and a particle with lower :math:`B\rho` is moving more slowly and easier to bend. A diagram of this is shown below, with the main idea that we want to tune the dipoles to such that the most probable charge state of the recoils goes down the center of the beampipe.
 
+
+
+.. figure:: images/brho.png
+    :width: 400
+    :align: center
+
+    Diagram showing the impact of :math:`B\rho` on the trajectory of a charged particle in a dipole magnet.
 
 Quadrupole Magnets
 ------------
