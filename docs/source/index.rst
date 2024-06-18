@@ -20,6 +20,7 @@ Contents
 
    generalinfo
 
+   tuningprocedure
    stgoperation
    stg magnet control operation
    wfoperation
