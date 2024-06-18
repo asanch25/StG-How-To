@@ -34,3 +34,5 @@ Contents
    retrieving data from stgdaq
    spectcl operation
    pressure recording
+
+   referenceimages
