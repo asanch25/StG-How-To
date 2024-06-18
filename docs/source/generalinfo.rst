@@ -18,6 +18,7 @@ Dipole Magnets
 
 .. image:: images/brho.png
     :width: 400
+    :align: center
     
 
 The St. George Dipole magnets are responsible for the charge state selection of the recoils after being created in the HIPPO gas target. In analogy with traditional optics, a dipole magnet seperates particles by p/q much like a prism seperates light by wavelength.
