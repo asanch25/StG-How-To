@@ -1,3 +1,9 @@
 Tuning Procedure/Tips
 =====================
 This is meant to be a collection of tips and tricks that may make the tuning of StG go more smoothly.
+
+What is "Non-steering?"
+-----------------------
+When we are tuning StG what are aiming for is what we call a "Non-steering" tune. What we mean by this is that we aim to get the beam to travel down the beamline as
+close to centered as humanly possible, such that the quadrupoles do not steer the beam as we scale our tune down in energy. If you look at the diagram of StG it becomes
+obvious as to why this is not trivial. But we do have several tools and methods to do our best. 
