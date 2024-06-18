@@ -9,11 +9,10 @@ Welcome to the St. George How to Guide!
 
 #. General St. George information
 #. St. George Operation
+#. Energy Change Procedure
 #. HIPPO Guide
 #. Data retrival and conversion
 
-
-PUT AN ENERGY CHANGE PROCEDUREEEE DUDEE
 
 .. note::
 
@@ -32,6 +31,8 @@ Contents
    stg magnet control operation
    wfoperation
    cup current recording
+
+    energyprocedure
    
    
 
