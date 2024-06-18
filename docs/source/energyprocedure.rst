@@ -5,6 +5,7 @@ This section will go over how we go about changing energies on St. George, as we
 5U Steps
 --------
 On the 5U side of things, we need to actually lower the terminal voltage so that we are producing a beam that is lower in energy. The steps to do so are as follows
+
 #. Double check that the 5U master reference is on
 #. Close cup 2, the cup directly after the analyzing magnet
 #. Lower the 5U analyzing magnet slowly, and you want to end ~0.2G above where you want to be as the magnet does tend to drift down a bit
