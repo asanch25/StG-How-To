@@ -8,7 +8,7 @@ On the 5U side of things, we need to actually lower the terminal voltage so that
 
 * Double check that the 5U master reference is on
 * Close cup 2, the cup directly after the analyzing magnet
-* Lower the 5U analyzing magnet slowly, and you want to end ~0.2G above where you want to be as the magnet does tend to drift down a bit
+* Lower the 5U analyzing magnet slowly, and you want to end ~0.2G above where you want to be as the magnet does tend to drift down a bit. **IMPORTANT:** if you are the second shifter and you do accidentally increase the field in the magnet, please let the first shifter know so that they can recycle the analyzing magnet.
 
   * If you are doing a larger energy step, you might want to lower the terminal voltage in tandem with lowering the analyzing magnet current so that you don't have to refind it afterwards.
   * For smaller energy steps, you should close cup 1 and do the steps seperately.
