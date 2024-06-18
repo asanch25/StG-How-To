@@ -7,13 +7,11 @@ This section is primarily meant to provide a description for the various element
 What is St. George?
 ------------
 The Strong Gradient Electromagnetic Online Recoil separator for capture
-Gamma Ray Experiment, or St. George is a recoil mass separator located at the University of Notre Dame. The main goal of St. George is to measure :math:'\alpha', :math:'\gamma' reactions that are important for astrophysical processes.
+Gamma Ray Experiment, or St. George is a recoil mass separator located at the University of Notre Dame. The main goal of St. George is to measure (:math:`\alpha` , :math:`\gamma`). reactions that are important for astrophysical processes. Recoil separators are complicated machines, so hopefully this explains some of the elements on St. George well enough for you to understand what is going on.
 
-:math:`\alpha` and :math:`\gamma`.
 
-.. math::
 
-   \alpha, \gamma
+
 
 Dipole Magnets
 ------------
@@ -22,6 +20,13 @@ Dipole Magnets
     :width: 400px
     :align: center
 The St. George Dipole magnets are responsible for the charge state selection of the recoils after being created in the HIPPO gas target. In analogy with traditional optics, a dipole magnet seperates particles by p/q much like a prism seperates light by wavelength.
+
+.. math::
+
+   F = ma = \frac{mv^2}{\rho}
+   F = qvB
+   qvB = \frac{mv^2}{\rho}
+   B\rho = \frac{p}{q}
 
 
 
