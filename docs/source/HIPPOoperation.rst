@@ -176,52 +176,58 @@ Venting HIPPO to atmosphere
 
 Hornet Gauge Guide
 ------------------
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-  
-     - Row 1, column 3
-   * - Row 2, column 1
-   
-     - Row 2, column 3
-
-.. list-table:: Table Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Column 1
-     - Column 2
-     - Column 3
-   * - Row 1, Col 1
-     - Row 1, Col 2
-     - Row 1, Col 3
-   * - Row 2, Col 1
-     - Row 2, Col 2
-     - Row 2, Col 3
-   * - Row 3, Col 1
-     - Row 3, Col 2
-     - Row 3, Col 3
-   * - Row 4, Col 1
-     - Row 4, Col 2
-     - Row 4, Col 3
 
 
-.. list-table:: Table Title
+
+.. list-table:: Hornet 1
    :widths: 50 50
    :header-rows: 1
 
-   * - Column 1
-     - Column 2
-   * - Row 1, Col 1
-     - Row 1, Col 2
-   * - Row 2, Col 1
-     - Row 2, Col 2
-   * - Row 3, Col 1
-     - Row 3, Col 2
-   * - Row 4, Col 1
-     - Row 4, Col 2
+   * - Readout
+     - What it is reading
+   * - IG
+     - Upstream of cube 1
+   * - CG1
+     - Output of roots blower
+   * - CG2
+     - Entrance of XDS35 pump
+  
+.. list-table:: Hornet 2
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Readout
+     - What it is reading
+   * - IG
+     - Downstream of cube 1
+   * - CG1
+     - Exit of XDS35 (recirculation side)
+   * - CG2
+     - Side chamber
+
+.. list-table:: Hornet 3
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Readout
+     - What it is reading
+   * - IG
+     - Upstream of cube 2
+   * - CG1
+     - Backing of 5 turbo pumps (recirculation side)
+   * - CG2
+     - Central chamber
+
+.. list-table:: Hornet 4
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Readout
+     - What it is reading
+   * - IG
+     - Downstream of cube 2
+   * - CG1
+     - Exit of jet
+   * - CG2
+     - Backing of turbos
+  
