@@ -180,7 +180,7 @@ Hornet Gauge Guide
 
 
 .. list-table:: **Hornet 1**
-   :widths: 50 50
+   :widths: 25 25
    :header-rows: 1
 
    * - Readout
@@ -193,7 +193,7 @@ Hornet Gauge Guide
      - Entrance of XDS35 pump
   
 .. list-table:: **Hornet 2**
-   :widths: 50 50
+   :widths: 25 25
    :header-rows: 1
 
    * - Readout
@@ -206,7 +206,7 @@ Hornet Gauge Guide
      - Side chamber
 
 .. list-table:: **Hornet 3**
-   :widths: 50 50
+   :widths: 25 25
    :header-rows: 1
 
    * - Readout
@@ -219,7 +219,7 @@ Hornet Gauge Guide
      - Central chamber
 
 .. list-table:: **Hornet 4**
-   :widths: 50 50
+   :widths: 25 25
    :header-rows: 1
 
    * - Readout
