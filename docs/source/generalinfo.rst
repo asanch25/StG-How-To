@@ -1,6 +1,6 @@
 General Information
 ===================
-This section is primarily meant to provide a description for the various elements on St. George, or common terms that we may use. 
+This section is primarily meant to provide a description for the various elements on St. George, or common terms that we may use. For a nice reference diagram go `here <referenceimages.rst>`_.
 
 .. _whatis:
 
