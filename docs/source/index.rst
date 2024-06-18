@@ -1,7 +1,7 @@
 Welcome to the St. George How to Guide!
 ===================================
 .. image:: images/st._george.jpg
-    :width: 800
+    :width: 600
     :align: center
 
 
