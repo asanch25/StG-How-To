@@ -10,6 +10,7 @@ Automagically load modules on the CRC
 If you get tired of manually loading ROOT or some other module, there is a way to have the crc automatically do this on login. Immediately when you log into a crc computer, where you have your Private Public www and YESTERDAY directories, there is a hidden file .bashrc. Open this in your text editor of choice and you should see something like this:
 
 .. code-block:: console
+
     #Check http://crc.nd.edu/wiki for login problems
     #Contact crcsupport@nd.edu if further problems
 
