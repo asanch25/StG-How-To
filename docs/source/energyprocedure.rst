@@ -32,6 +32,7 @@ Immediately after a run you want to do several things.
   * Ending cup currents
 
 Once these are complete, and in paralell with the steps needed to scale down in energy on the 5U the procedure for scaling StG is as follows.
+
 #. Open the remote slits
 #. Remove gas from HIPPO and close the elastic shutter
 #. Remove bias from Si detector and MCPS **Why?**
