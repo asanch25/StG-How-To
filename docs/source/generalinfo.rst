@@ -6,7 +6,7 @@ This section is primarily meant to provide a description for the various element
 
 What is St. George?
 ------------
-The **St**rong **G**radient **E**lectromagnetic **O**nline **R**ecoil separator for capture
+The **St** rong **G**radient **E**lectromagnetic **O**nline **R**ecoil separator for capture
 **G**amma **R**ay **E**xperiment, or St. George is a recoil mass separator located at the University of Notre Dame. The main goal of St. George is to measure (:math:`\alpha` , :math:`\gamma`). reactions that are important for astrophysical processes. Recoil separators are complicated machines, so hopefully this explains some of the elements on St. George well enough for you to understand what is going on.
 
 
