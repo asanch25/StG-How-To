@@ -17,7 +17,7 @@ Dipole Magnets
 ------------
 
 
-The St. George Dipole magnets are responsible for the charge state selection of the recoils after being created in the HIPPO gas target. In analogy with traditional optics, a dipole magnet seperates particles by p/q much like a prism seperates light by wavelength.
+The St. George Dipole magnets are responsible for the charge state selection of the recoils after being created in the HIPPO gas target. In analogy with traditional optics, a dipole magnet seperates particles by p/q much like a prism seperates light by wavelength. 
 
 .. math::
 
@@ -69,6 +69,8 @@ The Wien filter is the location where the majority of the rejection of the prima
 
    v = \frac{E\rho}{B\rho} 
 
+
+The Wien filter preforms the mass separation in the case of an (:math:`\alpha` , :math:`\gamma`) reaction. Due to the beam and the recoil having the same momentum due to momentum conservation, in tuning the Wien filter for a specific velocity, we are actually allowing a particle of a specific mass to pass through. 
   
 Recycling
 --------
