@@ -38,3 +38,7 @@ In addition to the 6 dipole magnets, St. George also has 11 quadrupole magnets f
 Wien Filter
 ------------
 The Wien filter is the location where the majority of the rejection of the primary beam takes place. We set the fields of a perpendicular electric and magnetic field to tune the Wien filter to only allow particles of a specific velocity through. Luckily this effect is easily explainable with only a semester (maybe) of electromagnetism. 
+
+Misc Terms
+------------
+*test:*
