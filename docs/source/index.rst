@@ -1,5 +1,9 @@
 Welcome to the St. George How to Guide!
 ===================================
+.. image:: images/st_george.jpg
+    :width: 400
+    :align: center
+
 
 **St. George** is the recoil mass separator located at the University of Notre Dame. This documentation is meant to serve as both a guide and a reminder for some of the typical operations of St. George. This guide will follow the general format: 
 
