@@ -74,7 +74,7 @@ The Wien filter preforms the mass separation in the case of an (:math:`\alpha` ,
 
 Acceptance
 ----------
-.. figure:: images/ag.png
+.. figure:: images/ag.PNG
     :width: 400
     :align: center
 
