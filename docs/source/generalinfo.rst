@@ -71,6 +71,16 @@ The Wien filter is the location where the majority of the rejection of the prima
 
 
 The Wien filter preforms the mass separation in the case of an (:math:`\alpha` , :math:`\gamma`) reaction. Due to the beam and the recoil having the same momentum due to momentum conservation, in tuning the Wien filter for a specific velocity, we are actually allowing a particle of a specific mass to pass through. 
+
+Acceptance
+----------
+.. figure:: images/ag.png
+    :width: 400
+    :align: center
+
+
+
+You will hear us talk about the "acceptance" of St. George quite a bit. There are two types of acceptance we are concerned about are energy acceptance, and angular acceptance. As an illustrative example for what I am talking about here, lets consider a generic (:math:`\alpha` , :math:`\gamma`) reaction. In this reaction the beam fuses with the beam to create a compound nucleus in an excited state. Upon de-excitation, the :math:`\gamma` can be emitted in any direction. With this freedom comes two extreme cases that effect the kinematics of the recoil producs we wish to measure. The diagram above illustrates these cases. The first extreme case is the emission of the :math:`\gamma` at 90 or 270 degrees with respect to the lab frame. This gives the nucleus a "kick" up or down that creates an angular distribution of recoils. This angular distribution forms a cone of acceptance, the half angle of which is what we refer to when we say angular acceptance. The second extreme is the :math:`\gamma` being emitted at 0 or 180 degrees with respect to the lab frame. Momentum must be conserved, so depending on which way the gamma is emitted, the recoiling nucleus either gains or loses some kinetic energy creating an energy distribution of the created recoils.  
   
 Recycling
 --------
