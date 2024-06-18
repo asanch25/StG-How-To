@@ -23,10 +23,10 @@ The St. George Dipole magnets are responsible for the charge state selection of 
 
 .. math::
 
-   F = ma = \frac{mv^2}{\rho}
-   F = qvB
-   qvB = \frac{mv^2}{\rho}
-   B\rho = \frac{p}{q}
+   F = ma = \frac{mv^2}{\rho} \\
+   F = qvB \\ 
+   qvB = \frac{mv^2}{\rho} \\
+   B\rho = \frac{p}{q} \\
 
 
 
@@ -41,8 +41,9 @@ The Wien filter is the location where the majority of the rejection of the prima
 
 .. math::
 
-   F_B = qvB = \frac{mv^2}{\rho} \rightarrow B\rho = \frac{p}{q}
-   F_E = qE = \frac{mv^2}{\rho} \right arrow E\rho = \frac{p}{q}v
+   F_B = qvB = \frac{mv^2}{\rho} \rightarrow B\rho = \frac{p}{q} \\
+   F_E = qE = \frac{mv^2}{\rho} \rightarrow E\rho = \frac{p}{q}v \\ 
+   v = \frac{E\rho}{B\rho} 
 
   
    
