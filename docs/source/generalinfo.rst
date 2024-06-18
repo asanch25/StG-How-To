@@ -6,7 +6,8 @@ General Information
 
 What is St. George?
 ------------
-
+The Strong Gradient Electromagnetic Online Recoil separator for capture
+Gamma Ray Experiment, or St. George is a recoil mass separator located at the University of Notre Dame. The main goal of St. George is to measure :math:'(\alpha,\gamma)' reactions that are important for astrophysical processes.
 
 Dipole Magnets
 ------------
