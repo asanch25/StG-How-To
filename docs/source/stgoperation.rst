@@ -54,12 +54,12 @@ Quartz Viewing
 ---------------------
 
 
-.. note::
-
-   Pay close attention to this section unless you want to be reason that an experiment ends prematurely :)
 
 Sending Beam to Si detector
 ---------------------------
+.. note::
+
+   Pay close attention to this section unless you want to be reason that an experiment ends prematurely :)
 
 
 
