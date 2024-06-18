@@ -39,6 +39,17 @@ Wien Filter
 ------------
 The Wien filter is the location where the majority of the rejection of the primary beam takes place. We set the fields of a perpendicular electric and magnetic field to tune the Wien filter to only allow particles of a specific velocity through. Luckily this effect is easily explainable with only a semester (maybe) of electromagnetism. 
 
+.. math::
+
+   F_B = qvB = \frac{mv^2}{\rho} \rightarrow B\rho = \frac{p}{q}
+   F_E = qE = \frac{mv^2}{\rho} \right arrow E\rho = \frac{p}{q}v
+
+  
+   
+
+
 Misc Terms
 ------------
-**test:**
+**Beam left/beam right:** left or right as seen by the beam travelling through St. George
+**Rejection:** 
+
