@@ -32,7 +32,7 @@ The St. George Dipole magnets are responsible for the charge state selection of 
 .. math::
    B\rho = \frac{p}{q} 
 
-where :math:`\rho` is the bending radius of the dipole magnet. I find the most useful interpretation of :math:`B\rho` to be how "hard" it is to bend a particle around the dipole. A particle with a higher :math:`B\rho` is harder moving faster and harder to bend, and a particle with lower :math:`B\rho` is moving more slowly and easier to bend. A diagram of this is shown below, with the main idea that we want to tune the dipoles to such that the most probable charge state of the recoils goes down the center of the beampipe.
+where :math:`\rho` is the bending radius of the dipole magnet. I find the most useful interpretation of :math:`B\rho` to be how "hard" it is to bend a particle around the dipole. A particle with a higher :math:`B\rho` is harder moving faster and harder to bend, and a particle with lower :math:`B\rho` is moving more slowly and easier to bend. A diagram of this is shown below, with the main idea that we want to tune the dipoles such that the most probable charge state of the recoils goes down the center of the beampipe.
 
 
 
