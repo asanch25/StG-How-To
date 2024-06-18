@@ -27,6 +27,7 @@ On the 5U side of things, we need to actually lower the terminal voltage so that
 StG Steps
 ---------
 Immediately after a run you want to do several things.
+
 * Close StG faraday cups
 * Retract the detectors using StG magnet control interface
 * Record the following in the run spreadsheet
