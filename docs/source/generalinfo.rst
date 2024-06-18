@@ -17,7 +17,6 @@ Dipole Magnets
 ------------
 
 .. image:: images/brho.png
-    :alt: ahhh
     :width: 400
     
 
