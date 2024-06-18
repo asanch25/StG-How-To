@@ -57,6 +57,6 @@ The Wien filter is the location where the majority of the rejection of the prima
 
 Misc Terms
 ------------
-**Beam left/beam right:** left or right as seen by the beam travelling through St. George
-**Rejection:** 
++ **Beam left/beam right:** left or right as seen by the beam travelling through St. George. 
++ **Rejection:** 
 
