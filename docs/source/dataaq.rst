@@ -31,6 +31,7 @@ If you get tired of manually loading ROOT or some other module, there is a way t
 If you want some extra functionality, we can add some extra snippets of command language. We can create :code:`#Additional aliases.` that will let you access directories on the crc much more easily. It lets you essential create commands that you can enter into the terminal to immediately take you to a directory, regardless of where you are at in the file system. For example, this is what I have under :code:`#Additional aliases.`
 
 .. code-block:: console
+
     #Additional aliases
     alias groupspace='cd /afs/crc.nd.edu/group/nsl/rms'
     alias adam='cd /afs/crc.nd.edu/group/nsl/rms/user/asanch25'
