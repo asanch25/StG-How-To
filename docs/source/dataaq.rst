@@ -37,14 +37,16 @@ If you want some extra functionality, we can add some extra snippets of command 
     alias adam='cd /afs/crc.nd.edu/group/nsl/rms/user/asanch25'
     alias currentexp='cd /afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Experiments/2023_07_22_15N_aa'
 
+As you can see I have a terminal command that will take me to the RMS groupspace, my own user folder within that space, as well as a command to directly take me to my current experiment analysis folder. 
 
+Another useful feature is to have the CRC automatically load modules for you on login. You will need to pay attention to CRC upgrades for whether or not these modules actually exist and still remain funcitonal, but it is just as easy to stop them from loading on login. For example here is what I have under :code:`#Additional modules.`
 
+.. code-block:: console
 
     #Additional modules
     module use -a /afs/crc.nd.edu/user/n/nsl/nuclear/x86_64_linux_el6/nsl_modules #uncomment this after crc upgrade nonsense has been sorted out
     #module load geant/4.10.5_mt root/6.24.06  qt/4.8.7 cmake
-
     #module load root/6.26.10 #uncomment this after crc upgrade nonsense has been sorted out
 
-
+With these commands I am loading the NSL modules, but I have commented out the loading of some other modules because of a recent CRC upgrade. If you are ever in doubt of what versions of a specific module are available on the CRC, the command :code:`module avail <modulename>` will show you a list of available versions.
 
