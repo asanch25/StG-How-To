@@ -5,7 +5,7 @@ Vacuum operation
 ----------------
 Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping operation is as follows:
 
-#. Close the nitrogen vent valve (Photo 1).
+#. Close the nitrogen vent valve (Photo 1 :numref:`Figure <_hippo1>`. ).
 #. Ensure the XDS35 pump exhaust valve to atmosphere is open (Photo 2).
 #. Ensure the XDS35 pump is ON (Photo 3).
 #. Depending on the status of other sections of St. George and the 5U beam line:
@@ -231,12 +231,91 @@ Hornet Gauge Guide
    * - CG2
      - Backing of turbos
 
+.. _hippo1:
 
-.. _my_figure:
-
-.. figure:: images/my_figure.png
-   :alt: Description of the figure
+.. figure:: images/hippo/hippo1.PNG
 
    Caption for the figure.
+
+.. _hippo2:
+
+.. figure:: images/hippo/hippo2.PNG
+
+   Caption for the figure.
+
+.. _hippo3:
+
+.. figure:: images/hippo/hippo3.PNG
+
+   Caption for the figure.
+
+.. _hippo4:
+
+.. figure:: images/hippo/hippo4.PNG
+
+   Caption for the figure.
+
+.. _hippo5:
+
+.. figure:: images/hippo/hippo5.PNG
+
+   Caption for the figure.
+
+.. _hippo6:
+
+.. figure:: images/hippo/hippo6.PNG
+
+   Caption for the figure.
+
+.. _hippo7:
+
+.. figure:: images/hippo/hippo7.PNG
+
+   Caption for the figure.
+
+.. _hippo8:
+
+.. figure:: images/hippo/hippo8.PNG
+
+   Caption for the figure.
+
+.. _hippo9:
+
+.. figure:: images/hippo/hippo9.PNG
+
+   Caption for the figure.
+
+.. _hippo10:
+
+.. figure:: images/hippo/hippo10.PNG
+
+   Caption for the figure.
+
+.. _hippo11:
+
+.. figure:: images/hippo/hippo11.PNG
+
+   Caption for the figure.
+
+.. _hippo12:
+
+.. figure:: images/hippo/hippo12.PNG
+
+   Caption for the figure.
+
+.. _hippo13:
+
+.. figure:: images/hippo/hippo13.PNG
+
+   Caption for the figure.
+
+.. _hippo14:
+
+.. figure:: images/hippo/hippo14.PNG
+
+   Caption for the figure.
+
+
+
 
 This is a reference to :numref:`Figure <my_figure>`.
