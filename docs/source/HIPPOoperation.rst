@@ -15,6 +15,7 @@ Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping
    Link me!
 
 blah blah :numref:`target to image`
+blah blah :numref:`hippo1`
 
 #. Close the nitrogen vent valve (Photo 1 :numref:`Figure <_hippo1>`. ).
 #. Ensure the XDS35 pump exhaust valve to atmosphere is open (Photo 2).
