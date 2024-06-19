@@ -21,7 +21,7 @@ Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping
 blah blah :numref:`target to image`
 blah blah :numref:`hippo1`
 
-#. Close the nitrogen vent valve (Photo 1 :numref:`Figure <_hippo1>`. ).
+#. Close the nitrogen vent valve (Photo 1 :numref:`hippo1`. ).
 #. Ensure the XDS35 pump exhaust valve to atmosphere is open (Photo 2).
 #. Ensure the XDS35 pump is ON (Photo 3).
 #. Depending on the status of other sections of St. George and the 5U beam line:
@@ -85,7 +85,7 @@ Going from vacuum mode to jet operation
 #. Turn the 5 roots blower ON on the LabVIEW.
 
 
-:numref:`Figure <_hippo1>`
+:numref:`hippo1`
 
 
 #. Open the backing of the turbo Jet mode valve (Photo 12 Photo 1 ).
