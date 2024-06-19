@@ -1,6 +1,10 @@
 Data Retrieval
 ==============
-.. _whatis:
+
+
+
+
+
 
 stgdaq
 --------------------------
@@ -15,7 +19,51 @@ Backing up .evt files
 
 Converting .evt files to ROOT files
 -----------------------------------
-The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. There are various versions of a program called evt2root floating around, so the best way to get a hold of it as of right now is to look in the user space of another grad student to copy that into the directory you are doing your work in. At some point there will be a unified evt2root version that is easily accessible but that hasn't happened yet. As the name implies, evt2root converts .evt files to .root files that can be analyzed using CERN's ROOT framework. Once the evt2root folder has been copied into your working directory the following steps will prepare it for the conversion of the .evt files you just backed up. I am assuming you have some file structure like this:
+The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. There are various versions of a program called evt2root floating around, so the best way to get a hold of it as of right now is to look in the user space of another grad student to copy that into the directory you are doing your work in. At some point there will be a unified evt2root version that is easily accessible but that hasn't happened yet. As the name implies, evt2root converts .evt files to .root files that can be analyzed using CERN's ROOT framework. The other file you need to get your hands on (or copy the example that will show up in a second) is :code:`convert.sh` which is a bash script that will use evt2root to convert all the .evt files you just backed up. This particular example of :code:`convert.sh` is what I used to convert some Si detector calibration data, but it is easy to modify to convert any data you want. 
+
+:code:`convert.sh`
+
+.. code-block:: console
+
+    #!/usr/bin/env bash
+
+    # Variables for directories and command
+
+    #Specify the directory the .evt files for this particular experiment are backed up to
+    input_directory="/afs/crc.nd.edu/group/nsl/rms/exp/2024_06_11_Si_calibration"
+
+    #Specify the evt2root directory that you are using
+    conversion_command="/afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Calibrations/2024_06_11_Si_calibration/evt2root/exec/evt2root"
+
+    #need to remove the end of the .evt file name
+    suffix_to_remove="-13328.evt"
+    
+    # Loop over each .evt file in the input directory
+    for evt_file_path in "${input_directory}"/*.evt; do
+    
+        # Print the full path of the current .evt file
+        echo "${evt_file_path}"
+        
+        # Extract the filename from the full path
+        file_name=$(basename -- "${evt_file_path}")
+        echo "${file_name}"
+        
+        # Remove the specified suffix from the filename
+        file_name_without_extension="${file_name%${suffix_to_remove}}"
+        echo "${file_name_without_extension}"
+    
+        # Run the conversion command with the output and input file paths
+        "${conversion_command}" \
+            -o \
+            "${file_name_without_extension}.root" \
+            "${evt_file_path}"
+    
+    done
+
+.. note:: 
+    This will create the .root files in whatever directory :code:`convert.sh` is in.
+
+You cannot run this script just yet, and I recommend creating a folder named something like :code:`root_binaries` and moving the script in there for later. Your file structure should look something like this as of right now,
 
 ::
 
@@ -24,94 +72,52 @@ The next step is to convert the evt files we just backed up to root files within
     │   ├── evt2root stuffs
     ├── root_binaries         
     │   ├── convert.sh
-    
+
+Now we need to actually compile evt2root in this directory so that you can run the conversion script. Assuming you are starting from the :code:`Experiment` directory, you first want to enter the evt2root directory,
 
 .. code-block:: console
 
-    #remove the build directory
+    cd evt2root
+
+Next you want to remove the build directory,
+
+.. code-block:: console
+
     rm -r build
 
-    #create a new build directory
-    mkdir build
+Remake the build directory and enter it
 
-    #load cmake
+.. code-block:: console
+
+    mkdir build
+    cd build
+
+Then you need to load the cmake module
+    
+.. code-block:: console
+
     module load cmake
 
-    #go into the build directory
-    cd buildl
-    
-    #let cmake do its thing
+And finally let cmake do its thing
+
+.. code-block:: console
+
     cmake ..
     cmake install
 
-After running these commands in the terminal within the evt2root directory, evt2root should be ready. For the next step you need to :code:`module load root` the latest version of root. :code:`cd ..` out of the evt2root directory and do the following:
+
+After running these commands in the terminal within the evt2root directory, evt2root should be ready. For the next step you need to :code:`module load root` the latest version of root. :code:`cd ..` out of the evt2root directory go into the :code:`root_binaries` directory where you have the :code:`convert.sh` script. Once you are there,
 
 .. code-block:: console
 
-    #create a directory for your root files
-    mkdir root_binaries
+    ./convert.sh
 
-Once you have created the directory you wish to store your root files in, the next step is to use the conversion script :code:`convert.sh` to... well convert all the evt files you have in your experiment directory to root files in your root_binaries directory. 
-
-
-:code:`convert.sh`:
-
-.. code-block:: console
-
-    #!/usr/bin/env bash
-
-    for evt_file_path in /afs/crc.nd.edu/group/nsl/rms/exp/2024_06_11_Si_calibration/*.evt; do
-    
-        echo ${evt_file_path}
-        file_name=$(basename -- "${evt_file_path}")
-        echo ${file_name}
-        file_name_without_extension="${file_name%-13328.evt}"
-        echo ${file_name_without_extension}
-    
-        /afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Calibrations/2024_06_11_Si_calibration/evt2root/exec/evt2root \
-            -o \
-            ${file_name_without_extension}.root \
-            /afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Calibrations/2024_06_11_Si_calibration/evt_files/${file_name}
-    
-    done
-
-
-
-
-
-
-
-
-EVT to ROOT:
-Create run folder in data analysis.
-Copy the evt_files get-evtfiles.sh into the working directory. Cp source get-evtfiles.sh
-Change the run numbers in that file.
-./get-evtfiles.sh to get the evt files from DAQ.
-Copy the evt2root folder from previous runs. Cp -R source/* evt2root/
-Delete the build directory or create a new build directory in the evt2root.
-Module load cmake
-Cd build
-Cmake ..
-Make install
-Create root_files directory
-Copy the convert.sh from previous runs. Cp source convert.sh
-./convert.sh
-Root files should be in the root_files.
-
-
-
-
-
-
-
-
-
-
+Should well...convert all the .evt files you specified to to .root files that will be created in the :code:`root_binaries` directory you created.
 
 
 Automagically load modules on the CRC
 -------------------------------------
-If you get tired of manually loading ROOT or some other module, there is a way to have the crc automatically do this on login. Immediately when you log into a crc computer, where you have your Private Public www and YESTERDAY directories, there is a hidden file .bashrc. Open this in your text editor of choice and you should see something like this:
+If you get tired of manually loading ROOT or some other module, there is a way to have the crc automatically do this on login. Immediately when you log into a crc computer, where you have your :code:`Private` :code:`Public` :code:`www` and :code:`YESTERDAY` directories, there is a hidden file :code:`.bashrc`. Open this in your text editor of choice and you should see something like this:
 
 .. code-block:: console
 
