@@ -5,7 +5,16 @@ Vacuum operation
 ----------------
 Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping operation is as follows:
 
-blah blah blah :numref:`<my_figure1>`
+.. _target to image:
+
+.. figure:: /img/logo.png
+   :alt: Logo
+   :align: center
+   :width: 240px
+
+   Link me!
+
+blah blah :numref:`target to image`
 
 #. Close the nitrogen vent valve (Photo 1 :numref:`Figure <_hippo1>`. ).
 #. Ensure the XDS35 pump exhaust valve to atmosphere is open (Photo 2).
