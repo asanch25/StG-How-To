@@ -48,6 +48,7 @@ Once you have created the directory you wish to store your root files in, the ne
 :code:`convert.sh`:
 
 .. code-block:: console
+
     #!/usr/bin/env bash
 
     for evt_file_path in /afs/crc.nd.edu/group/nsl/rms/exp/2024_06_11_Si_calibration/*.evt; do
