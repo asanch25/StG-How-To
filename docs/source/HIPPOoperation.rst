@@ -239,4 +239,4 @@ Hornet Gauge Guide
 
    Caption for the figure.
 
-This is a reference to :ref:`my_figure`.
+This is a reference to :numref:`Figure <my_figure>`.
