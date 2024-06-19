@@ -1,6 +1,10 @@
 HIPPO Operation
 ===============
 
+.. note::
+
+   Some of the photos here are outdated, but the process generally remains the same. Also pro tip: if you click on the links to the figures, if you go "back" in whatever browser you are in, you will be directed back to where you were.
+
 Vacuum operation
 ----------------
 Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping operation is as follows:
@@ -80,7 +84,7 @@ Going from vacuum mode to jet operation
 
 #. Turn the 5 roots blower ON on the LabVIEW.
 
-#. Open the backing of the turbo Jet mode valve (Photo 12).
+#. Open the backing of the turbo Jet mode valve (Photo 12 Photo 1 :numref:`Figure <_hippo1>`.).
 
 #. On the LabVIEW, ensure the vacuum is OK:
    * Must read better than:
