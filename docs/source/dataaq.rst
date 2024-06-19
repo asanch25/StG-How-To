@@ -15,7 +15,16 @@ Backing up .evt files
 
 Converting .evt files to ROOT files
 -----------------------------------
-The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. There are various versions of a program called evt2root floating around, so the best way to get a hold of it as of right now is to look in the user space of another grad student to copy that into the directory you are doing your work in. At some point there will be a unified evt2root version that is easily accessible but that hasn't happened yet. As the name implies, evt2root converts .evt files to .root files that can be analyzed using CERN's ROOT framework. Once the evt2root folder has been copied into your working directory the following steps will prepare it for the conversion of the .evt files in your directories:
+The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. There are various versions of a program called evt2root floating around, so the best way to get a hold of it as of right now is to look in the user space of another grad student to copy that into the directory you are doing your work in. At some point there will be a unified evt2root version that is easily accessible but that hasn't happened yet. As the name implies, evt2root converts .evt files to .root files that can be analyzed using CERN's ROOT framework. Once the evt2root folder has been copied into your working directory the following steps will prepare it for the conversion of the .evt files you just backed up. I am assuming you have some file structure like this:
+
+::
+
+    Experiment
+    ├── evt2root         
+    │   ├── evt2root stuffs
+    ├── root_binaries         
+    │   ├── convert.sh
+    
 
 .. code-block:: console
 
