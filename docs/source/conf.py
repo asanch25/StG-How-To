@@ -38,3 +38,6 @@ epub_show_urls = 'footnote'
 # -- Options for HTML output -------------------------------------------------
 
 html_static_path = ['images']
+
+# Enable figure numbering
+numfig = True
