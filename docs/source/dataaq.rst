@@ -5,6 +5,19 @@ Data Retrieval
 stgdaq
 --------------------------
 
+
+Backing up .evt files
+---------------------
+
+.. note::
+    Do NOT back up the evt files for an experiment in your own personal space. It belongs in the groupspace where it is easily accessible.
+
+
+Converting .evt files to ROOT files
+-----------------------------------
+The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. 
+
+
 Automagically load modules on the CRC
 -------------------------------------
 If you get tired of manually loading ROOT or some other module, there is a way to have the crc automatically do this on login. Immediately when you log into a crc computer, where you have your Private Public www and YESTERDAY directories, there is a hidden file .bashrc. Open this in your text editor of choice and you should see something like this:
