@@ -84,7 +84,11 @@ Going from vacuum mode to jet operation
 
 #. Turn the 5 roots blower ON on the LabVIEW.
 
-#. Open the backing of the turbo Jet mode valve (Photo 12 Photo 1 :numref:`Figure <_hippo1>`.).
+
+:numref:`Figure <_hippo1>`
+
+
+#. Open the backing of the turbo Jet mode valve (Photo 12 Photo 1 ).
 
 #. On the LabVIEW, ensure the vacuum is OK:
    * Must read better than:
