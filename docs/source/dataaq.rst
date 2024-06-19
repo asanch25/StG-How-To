@@ -106,7 +106,7 @@ And finally let cmake do its thing
     cmake install
 
 
-After running these commands in the terminal within the evt2root directory, evt2root should be ready. For the next step you need to :code:`module load root` the latest version of root. :code:`cd ..` out of the evt2root directory go into the :code:`root_binaries` directory where you have the :code:`convert.sh` script. Once you are there,
+After running these commands in the terminal within the evt2root directory, evt2root should be ready. For the next step you need to :code:`module load root` the latest version of root. :code:`cd ..` out of the evt2root directory and go into the :code:`root_binaries` directory where you have the :code:`convert.sh` script. Once you are there,
 
 .. code-block:: console
 
