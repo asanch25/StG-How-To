@@ -15,7 +15,88 @@ Backing up .evt files
 
 Converting .evt files to ROOT files
 -----------------------------------
-The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. 
+The next step is to convert the evt files we just backed up to root files within the directory you wish to work in. There are various versions of a program called evt2root floating around, so the best way to get a hold of it as of right now is to look in the user space of another grad student to copy that into the directory you are doing your work in. At some point there will be a unified evt2root version that is easily accessible but that hasn't happened yet. As the name implies, evt2root converts .evt files to .root files that can be analyzed using CERN's ROOT framework. Once the evt2root folder has been copied into your working directory the following steps will prepare it for the conversion of the .evt files in your directories:
+
+.. code-block:: console
+
+    #remove the build directory
+    rm -r build
+
+    #create a new build directory
+    mkdir build
+
+    #load cmake
+    module load cmake
+
+    #go into the build directory
+    cd buildl
+    
+    #let cmake do its thing
+    cmake ..
+    cmake install
+
+After running these commands in the terminal within the evt2root directory, evt2root should be ready. For the next step you need to :code:`module load root` the latest version of root. :code:`cd ..` out of the evt2root directory and do the following:
+
+.. code-block:: console
+
+    #create a directory for your root files
+    mkdir root_binaries
+
+Once you have created the directory you wish to store your root files in, the next step is to use the conversion script :code:`convert.sh` to... well convert all the evt files you have in your experiment directory to root files in your root_binaries directory. 
+
+
+:code:`convert.sh`:
+
+.. code-block:: console
+    #!/usr/bin/env bash
+
+    for evt_file_path in /afs/crc.nd.edu/group/nsl/rms/exp/2024_06_11_Si_calibration/*.evt; do
+    
+        echo ${evt_file_path}
+        file_name=$(basename -- "${evt_file_path}")
+        echo ${file_name}
+        file_name_without_extension="${file_name%-13328.evt}"
+        echo ${file_name_without_extension}
+    
+        /afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Calibrations/2024_06_11_Si_calibration/evt2root/exec/evt2root \
+            -o \
+            ${file_name_without_extension}.root \
+            /afs/crc.nd.edu/group/nsl/rms/user/asanch25/data-analysis/Calibrations/2024_06_11_Si_calibration/evt_files/${file_name}
+    
+    done
+
+
+
+
+
+
+
+
+EVT to ROOT:
+Create run folder in data analysis.
+Copy the evt_files get-evtfiles.sh into the working directory. Cp source get-evtfiles.sh
+Change the run numbers in that file.
+./get-evtfiles.sh to get the evt files from DAQ.
+Copy the evt2root folder from previous runs. Cp -R source/* evt2root/
+Delete the build directory or create a new build directory in the evt2root.
+Module load cmake
+Cd build
+Cmake ..
+Make install
+Create root_files directory
+Copy the convert.sh from previous runs. Cp source convert.sh
+./convert.sh
+Root files should be in the root_files.
+
+
+
+
+
+
+
+
+
+
 
 
 Automagically load modules on the CRC
