@@ -230,4 +230,13 @@ Hornet Gauge Guide
      - Exit of jet
    * - CG2
      - Backing of turbos
-  
+
+
+.. _my_figure:
+
+.. figure:: images/my_figure.png
+   :alt: Description of the figure
+
+   Caption for the figure.
+
+This is a reference to :ref:`my_figure`.
