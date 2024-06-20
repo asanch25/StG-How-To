@@ -15,7 +15,7 @@ The first interface is for controlling the current/field of the various magnets 
 
 St. George Magnet Controls
 --------------------------
-When you open up the labview interface :code:`StG_Main_Ctrl.vi` you should see something like this:
+When you open up the labview interface :code:`StG_Main_Ctrl.vi` you should see something like this (minus the annotations):
 
 .. _stgmagcontrols:
 
