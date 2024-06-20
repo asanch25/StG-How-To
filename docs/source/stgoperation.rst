@@ -3,6 +3,15 @@ St. George Operation
 
 .. _whatis:
 
+Labview Programs
+----------------
+There are several labview programs we will use in the operation of St. George. On the St. George computer at the 5U console area, there is a :code:`St George` folder that will contain the labview programs we need. The two we need for directly controlling St. George are 
+
+* StG_Main_Ctrl.vi
+* wienFilterMonito_Fry_v3.vi
+
+
+
 St. George Magnet Controls
 --------------------------
 
@@ -11,19 +20,10 @@ St. George Magnet Controls
 
 .. figure:: images/magnetcontrols.PNG
 
-   caption
-
-
-
-.. _hippo1:
-
-.. figure:: images/hippo/hippo1.PNG
-
-   Caption for the figure.
-
+   St. George Magnet and cup control program
 
 blah blah :numref:`stgmagcontrols`
-blah blah :numref:`hippo1`
+
 
 Wien Filter Operation
 ---------------------
@@ -32,7 +32,15 @@ This is a short guide on how to operate the St. George Wien filter (WF). Informa
 
 Opening WF controls
 ~~~~~~~~~~~~~~~~~~
-On the St. George computer at the 5U console,
+Once you upen up the labview interface :code:`wienFilterMonito_Fry_v3.vi` you should see something like this:
+
+.. _wfcontrols:
+
+.. figure:: images/wfcontrols.png
+
+   St. George Wien filter electric field control
+
+
 
 
 
@@ -68,11 +76,44 @@ blah blah :numref:`stgmagcontrols`
 Cup Current Recording
 ---------------------
 
+.. _actuel:
+
+.. figure:: images/digitalpico.PNG
+
+   The Actuel interface
+
+
+.. _actueldata:
+
+.. figure:: images/digitalpico2.PNG
+
+   The Actuel data plotting interface
+
+
 Quartz Viewing
 ---------------------
 .. note::
 
    **Make sure to bias down Si detector and MCPs before sending the beam to the detector chamber quartz**
+
+.. _b5quartz:
+
+.. figure:: images/b5quartz.PNG
+
+   VLC screen showing the view of the camera facing the B5 quartz. Theres no beam so not much excitement here.
+
+
+
+
+Detector Bias
+-------------
+
+.. _detectorbias:
+
+.. figure:: images/detectorbias.PNG
+
+   Labview interface for biasing MCPs and Si detector
+
 
 Sending Beam to Si detector
 ---------------------------
