@@ -18,6 +18,7 @@ St. George Magnet Controls
    caption
 
 blah blah :numref:`stgmagcontrols`
+blah blah :numref:`hippo1`
 
 Wien Filter Operation
 ---------------------
