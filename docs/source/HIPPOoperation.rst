@@ -13,18 +13,6 @@ Vacuum operation
 ----------------
 Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping operation is as follows:
 
-.. _target to image:
-
-.. figure:: /img/logo.png
-   :alt: Logo
-   :align: center
-   :width: 240px
-
-   Link me!
-
-blah blah :numref:`target to image`
-blah blah :numref:`hippo1`
-
 #. Close the nitrogen vent valve (:numref:`hippo1`. ).
 #. Ensure the XDS35 pump exhaust valve to atmosphere is open (:numref:`hippo2`).
 #. Ensure the XDS35 pump is ON (:numref:`hippo3`).
@@ -94,14 +82,14 @@ Going from vacuum mode to jet operation
 
 #. Open the backing of the turbo Jet mode valve (:numref:`hippo12`).
 
-#. On the LabVIEW, ensure the vacuum is OK:
-   * Must read better than:
-     - ~1-3E-3 mbar or better on turbo backing.
-     - ~1E-4 mbar on top of the roots blower backing the turbo.
-     - ~6E-3 mbar on top of roots blower backing the chamber.
-     - ~5E-3 mbar on top of roots blower backing the catcher.
-     - ~2E-3 mbar between the roots blower.
-     - ~1E-2 mbar on top of the XDS35 pump.
+#. On the LabVIEW, ensure the vacuum is OK, must read better than:
+
+   * ~1-3E-3 mbar or better on turbo backing.
+   * ~1E-4 mbar on top of the roots blower backing the turbo.
+   * ~6E-3 mbar on top of roots blower backing the chamber.
+   * ~5E-3 mbar on top of roots blower backing the catcher.
+   * ~2E-3 mbar between the roots blower.
+   * ~1E-2 mbar on top of the XDS35 pump.
 
 #. Switch the Chamber and Catcher gate valve controller to “override” mode (:numref:`hippo13`).
 
