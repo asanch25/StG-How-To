@@ -15,10 +15,9 @@ St. George Magnet Controls
    :align: center
    :width: 240px
 
-   Link me!
+   caption
 
-
-blah blah :numref:`_stgmagcontrols`
+blah blah :numref:`stgmagcontrols`
 
 Wien Filter Operation
 ---------------------
