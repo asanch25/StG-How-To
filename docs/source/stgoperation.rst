@@ -30,7 +30,9 @@ In the middle is where we update the magnets with values we have from the St. Ge
 
 On the bottom middle there are buttons to manually recycle all of the dipoles and quadrupoles. There is also a set of controls to manually adjust the current for any of the elements as well.
 
-Finally on the right we have the controls for moving various elements in and out of the beamline. The order from top to bottom follows from the beginning of St. George to the end. Look here 
+Finally on the right we have the controls for moving various elements in and out of the beamline. The order from top to bottom follows from the beginning of St. George to the end. Look here `here <refernceimages.rst>`_. for the locations of the various cups. The only cups not indicated are the HIPPO entrance and exit cups, but it should be fairly clear as to where those are, and cup 5 which is in the detectoro chamber between MCP1 and MCP2. The PID source is a weak alpha source from a fire alarm that is always in the detection chamber and is used to verify the signals on the MCPs. 
+
+There is an additional step required to put elements within the detection chamber into position to take data. There are switches that must be activated to allow you to drive the MCPs and Si detector into the soon-to-be beam path. This is to prevent accidentally putting them in harms way when tuning or something.
 
 
 
