@@ -3,7 +3,11 @@ HIPPO Operation
 
 .. note::
 
-   Some of the photos here are outdated, but the process generally remains the same. Also pro tip: if you click on the links to the figures, if you go "back" in whatever browser you are in, you will be directed back to where you were.
+   Some of the photos here are outdated, but the process generally remains the same. 
+
+.. note::
+
+   **!!!PRO TIP ALERT!!!** If you click on the links to view the referenced figures, if you go "back" in whatever browser you are in, you will be directed back to where you were.
 
 Vacuum operation
 ----------------
