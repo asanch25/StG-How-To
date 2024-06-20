@@ -10,6 +10,7 @@ St. George Magnet Controls
 .. _stgmagcontrols:
 
 .. figure:: /images/magnetcontrols.PNG
+
    :alt: Logo
    :align: center
    :width: 240px
