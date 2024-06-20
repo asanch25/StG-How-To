@@ -56,7 +56,7 @@ If you notice a spark in the WF the steps are as follows:
 
 
 
-
+blah blah :numref:`stgmagcontrols`
 
 
 Cup Current Recording
