@@ -11,11 +11,16 @@ St. George Magnet Controls
 
 .. figure:: images/magnetcontrols.PNG
 
-   :alt: Logo
-   :align: center
-   :width: 240px
-
    caption
+
+
+
+.. _hippo1:
+
+.. figure:: images/hippo/hippo1.PNG
+
+   Caption for the figure.
+
 
 blah blah :numref:`stgmagcontrols`
 blah blah :numref:`hippo1`
@@ -54,11 +59,7 @@ If you notice a spark in the WF the steps are as follows:
 #. Press the **SET Pos DC** and **SET Neg DC** buttons again. 
 #. Wait a minute or two and then bring WF up to required voltage while keeping an eye on the stability.
 
-.. _hippo1:
 
-.. figure:: images/hippo/hippo1.PNG
-
-   Caption for the figure.
 
 
 blah blah :numref:`stgmagcontrols`
