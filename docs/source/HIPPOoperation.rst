@@ -270,86 +270,96 @@ Hornet Gauge Guide
    * - CG2
      - Backing of turbos
 
+
+
+
+
 .. _hippo1:
 
-.. figure:: images/hippo/hippo1.PNG
+.. figure:: images/hippo/hippohowtopic.PNG
 
    Caption for the figure.
 
 .. _hippo2:
 
-.. figure:: images/hippo/hippo2.PNG
+.. figure:: images/hippo/hippo1.PNG
 
    Caption for the figure.
 
 .. _hippo3:
 
-.. figure:: images/hippo/hippo3.PNG
+.. figure:: images/hippo/hippo2.PNG
 
    Caption for the figure.
 
 .. _hippo4:
 
-.. figure:: images/hippo/hippo4.PNG
+.. figure:: images/hippo/hippo3.PNG
 
    Caption for the figure.
 
 .. _hippo5:
 
-.. figure:: images/hippo/hippo5.PNG
+.. figure:: images/hippo/hippo4.PNG
 
    Caption for the figure.
 
 .. _hippo6:
 
-.. figure:: images/hippo/hippo6.PNG
+.. figure:: images/hippo/hippo5.PNG
 
    Caption for the figure.
 
 .. _hippo7:
 
-.. figure:: images/hippo/hippo7.PNG
+.. figure:: images/hippo/hippo6.PNG
 
    Caption for the figure.
 
 .. _hippo8:
 
-.. figure:: images/hippo/hippo8.PNG
+.. figure:: images/hippo/hippo7.PNG
 
    Caption for the figure.
 
 .. _hippo9:
 
-.. figure:: images/hippo/hippo9.PNG
+.. figure:: images/hippo/hippo8.PNG
 
    Caption for the figure.
 
 .. _hippo10:
+
+.. figure:: images/hippo/hippo9.PNG
+
+   Caption for the figure.
+
+.. _hippo11:
 
 .. figure:: images/hippo/hippo10.PNG
 :name: my_figure1
 
    Caption for the figure.
 
-.. _hippo11:
+.. _hippo12:
 
 .. figure:: images/hippo/hippo11.PNG
 
    Caption for the figure.
 
-.. _hippo12:
+.. _hippo13:
 
 .. figure:: images/hippo/hippo12.PNG
 
    Caption for the figure.
 
-.. _hippo13:
+.. _hippo14:
 
 .. figure:: images/hippo/hippo13.PNG
 
    Caption for the figure.
 
-.. _hippo14:
+.. _hippo15:
 
 .. figure:: images/hippo/hippo14.PNG
 
