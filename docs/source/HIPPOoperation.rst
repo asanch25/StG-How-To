@@ -278,94 +278,93 @@ Hornet Gauge Guide
 
 .. figure:: images/hippohowtopic.PNG
 
-   Caption for the figure.
+  Location of nitrogen vent and purge valves on beam left.
 
 .. _hippo2:
 
 .. figure:: images/hippo/hippo1.PNG
 
-   Caption for the figure.
+   Beam right.
 
 .. _hippo3:
 
 .. figure:: images/hippo/hippo2.PNG
 
-   Caption for the figure.
+   The location of the XDS-35, XDS-10, and sorption pumps at HIPPO beam right.
 
 .. _hippo4:
 
 .. figure:: images/hippo/hippo3.PNG
 
-   Caption for the figure.
+   Location of the button for the gate valve between the switching magnet and HIPPO.
 
 .. _hippo5:
 
 .. figure:: images/hippo/hippo4.PNG
 
-   Caption for the figure.
+   Location of the button for the gate valve between Q2 and B1.
 
 .. _hippo6:
 
 .. figure:: images/hippo/hippo5.PNG
 
-   Caption for the figure.
+   The two gate valves isolate HIPPO from the beamline while switching to different modes of operation. 
 
 .. _hippo7:
 
 .. figure:: images/hippo/hippo6.PNG
 
-   Caption for the figure.
+   The 4 hornet gauges on top of HIPPO
 
 .. _hippo8:
 
 .. figure:: images/hippo/hippo7.PNG
 
-   Caption for the figure.
+   Beam right.
 
 .. _hippo9:
 
 .. figure:: images/hippo/hippo8.PNG
 
-   Caption for the figure.
+   The location of the sorption pump valves and helium valves on beam right.
 
 .. _hippo10:
 
 .. figure:: images/hippo/hippo9.PNG
 
-   Caption for the figure.
+   Valves and dials for the helium gas supply.
 
 .. _hippo11:
 
 .. figure:: images/hippo/hippo10.PNG
-:name: my_figure1
 
-   Caption for the figure.
+   The roots blower power supply switch on the wall behind HIPPO.
 
 .. _hippo12:
 
 .. figure:: images/hippo/hippo11.PNG
 
-   Caption for the figure.
+   The location of the Jet mode turbo backing valve at HIPPO beam left.
 
 .. _hippo13:
 
 .. figure:: images/hippo/hippo12.PNG
 
-   Caption for the figure.
+   The location of the catcher and chamber override switches and their gate valve controls.
 
 .. _hippo14:
 
 .. figure:: images/hippo/hippo13.PNG
 
-   Caption for the figure.
+   The top baratron gauge is where you will look when opening the helium intake valve, it gives a readback of the injection pressure. Make sure it is set to CH1.
 
 .. _hippo15:
 
 .. figure:: images/hippo/hippo14.PNG
 
-   Caption for the figure.
+   The location of the compressor and its power switch. The switch is kinda hidden behind some things, so the zom in should help you find it.
 
 
 
 
-This is a reference to :numref:`Figure <my_figure>`.
+
