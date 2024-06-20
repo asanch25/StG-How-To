@@ -25,24 +25,24 @@ Starting with HIPPO mechanically closed but at atmospheric pressure, the pumping
 blah blah :numref:`target to image`
 blah blah :numref:`hippo1`
 
-#. Close the nitrogen vent valve (Photo 1 :numref:`hippo1`. ).
-#. Ensure the XDS35 pump exhaust valve to atmosphere is open (Photo 2).
-#. Ensure the XDS35 pump is ON (Photo 3).
+#. Close the nitrogen vent valve (:numref:`hippo1`. ).
+#. Ensure the XDS35 pump exhaust valve to atmosphere is open (:numref:`hippo2`).
+#. Ensure the XDS35 pump is ON (:numref:`hippo3`).
 #. Depending on the status of other sections of St. George and the 5U beam line:
 
-   * Close the beam line gate valve at the wall before the quad triplet (Photo 4).
-   * Close the beam line gate valve between Q2 and B1 (Photo 5).
-   * This isolates HIPPO from the rest of the beamline (Photo 6).
+   * Close the beam line gate valve at the wall before the quad triplet (:numref:`hippo4`).
+   * Close the beam line gate valve between Q2 and B1 (:numref:`hippo5`).
+   * This isolates HIPPO from the rest of the beamline (:numref:`hippo6`).
 
-#. Gently open the vacuum operation turbo backing valve (Photo 2) on top of the XDS35 pump.
+#. Gently open the vacuum operation turbo backing valve (:numref:`hippo2`) on top of the XDS35 pump.
 
    * Gradually open the valve until fully open as the pump sound improves.
 
-#. Check that the vacuum readings on CG2 gauges 1-4 (see Photo 7 and the hornet gauge guide) are decreasing.
+#. Check that the vacuum readings on CG2 gauges 1-4 (see :numref:`hippo7` and the hornet gauge guide) are decreasing.
 
    * If not, there may be a problem such as leaks or components not being closed properly.
 
-#. Turn on the 4 hornet IGs and verify they indicate activity after 5-10 seconds (Photo 7).
+#. Turn on the 4 hornet IGs and verify they indicate activity after 5-10 seconds (:numref:`hippo7`).
 
 #. When CG2 readings on the gauges reach approximately 1E-1 mbar or better, turn on the 5 turbo pumps using LabVIEW on the console (Photo 16).
 
@@ -54,37 +54,37 @@ blah blah :numref:`hippo1`
 
 Going from vacuum mode to jet operation
 ---------------------------------------
-**Review the whole procedure before proceeding**. This procedure starts assuming vacuum mode operation with the recirculation side fully separated from HIPPO, i.e., Jet valve (Photo 8) closed, recirculation valve (Photo 8) closed, and XDS35 exhaust valve (Photo 2) opened to atmosphere.
+**Review the whole procedure before proceeding**. This procedure starts assuming vacuum mode operation with the recirculation side fully separated from HIPPO, i.e., Jet valve (:numref:`hippo8`) closed, recirculation valve (:numref:`hippo8`) closed, and XDS35 exhaust valve (:numref:`hippo2`) opened to atmosphere.
 
 #. Close the two beam line gate valves:
 
-   * The one at the wall before the quad triplet (Photo 4).
-   * The one between Q2 and B1 (Photo 5).
-   * This isolates HIPPO from the rest of St. George (Photo 6).
+   * The one at the wall before the quad triplet (:numref:`hippo4`).
+   * The one between Q2 and B1 (:numref:`hippo5`).
+   * This isolates HIPPO from the rest of St. George (:numref:`hippo6`).
 
 #. Make sure the HIPPO collimator is fully retracted.
 
 #. Pump the recirculation side:
 
-   * Turn XDS 10 pump ON (Photo 3).
-   * Open the two XD9S10 pumping valves (Photo 8).
+   * Turn XDS 10 pump ON (:numref:`hippo3`).
+   * Open the two XD9S10 pumping valves (:numref:`hippo8`).
    * Wait for the vacuum in the recirculation area, as read on the LabVIEW (or Hornet 2 CG1), to reach below ~2E-2 mbar.
 
-#. If the sorption pump (Photo 3) is to be used:
+#. If the sorption pump (:numref:`hippo3`) is to be used:
 
-   * Open the two valves on the sorption pump (Photo 9).
+   * Open the two valves on the sorption pump (:numref:`hippo9`).
    * Wait for the vacuum in the recirculation area, as read on the LabVIEW (or Hornet 2 CG1), to reach below ~2E-2 mbar.
    * You can move ahead while the vacuum is going down.
 
-#. Open the regulator and the exit valve at the helium bottle (Photo 10) on the wall to the right of “Door 10”. The regulator should indicate pressure left in the bottle; the exit pressure gauge should be between 45 and 60 PSI. Pay attention that there is also a nitrogen bottle.
+#. Open the regulator and the exit valve at the helium bottle (:numref:`hippo10`) on the wall to the right of “Door 10”. The regulator should indicate pressure left in the bottle; the exit pressure gauge should be between 45 and 60 PSI. Pay attention that there is also a nitrogen bottle.
 
-#. At the panel on the wall, turn the power to the roots-blower ON (Photo 11).
+#. At the panel on the wall, turn the power to the roots-blower ON (:numref:`hippo11`).
 
-#. Purge the helium line by opening the helium purging valve for 3-5 seconds (Photo 9).
+#. Purge the helium line by opening the helium purging valve for 3-5 seconds (:numref:`hippo9`).
 
-#. Close the vacuum mode backing of the turbo pumps valve (Photo 2).
+#. Close the vacuum mode backing of the turbo pumps valve (:numref:`hippo2`).
 
-#. Open the two backing of the roots-blower valve (Photo 2).
+#. Open the two backing of the roots-blower valve (:numref:`hippo2`).
 
 #. Turn the 5 roots blower ON on the LabVIEW.
 
@@ -92,7 +92,7 @@ Going from vacuum mode to jet operation
 :numref:`hippo1`
 
 
-#. Open the backing of the turbo Jet mode valve (Photo 12 Photo 1 ).
+#. Open the backing of the turbo Jet mode valve (:numref:`hippo12`).
 
 #. On the LabVIEW, ensure the vacuum is OK:
    * Must read better than:
@@ -103,38 +103,38 @@ Going from vacuum mode to jet operation
      - ~2E-3 mbar between the roots blower.
      - ~1E-2 mbar on top of the XDS35 pump.
 
-#. Switch the Chamber and Catcher gate valve controller to “override” mode (Photo 13).
+#. Switch the Chamber and Catcher gate valve controller to “override” mode (:numref:`hippo13`).
 
-#. Open the chamber and catcher gate valve (Photo 13).
+#. Open the chamber and catcher gate valve (:numref:`hippo13`).
 
-   - If the two sorption pump valves (Photo 9) are open, close them.
+   - If the two sorption pump valves (:numref:`hippo9`) are open, close them.
 
-#. Close the XDS35 exhaust valve (Photo 2).
+#. Close the XDS35 exhaust valve (:numref:`hippo2`).
 
-#. Quickly open the recirculation valve (Photo 8).
+#. Quickly open the recirculation valve (:numref:`hippo8`).
 
    - The XDS10 will pump the small volume coming from the exit of the XDS35; you’ll hear the pump.
 
 #. Wait for recirculation vacuum (on the LabVIEW or Hornet 2 CG1) to go down to ~8E-2 mbar or better.
 
-#. Close the two XDS10 pumping valves (Photo 8).
+#. Close the two XDS10 pumping valves (:numref:`hippo8`).
 
-#. Open the Jet valve (Photo 8).
+#. Open the Jet valve (:numref:`hippo8`).
 
-#. Very gently open the Helium intake valve (Photo 9), keeping an eye on the baratron gauge value (Photo 14).
+#. Very gently open the Helium intake valve (:numref:`hippo9`), keeping an eye on the baratron gauge value (:numref:`hippo14`).
 
-#. You could use one of the XDS10 pumping valves (Photo 8) to remove the helium for a preliminary purge if desired.
+#. You could use one of the XDS10 pumping valves (:numref:`hippo8`) to remove the helium for a preliminary purge if desired.
 
 #. If you plan to use the compressor:
 
    * Inject at least ~200 mbar, but no more than ~500 mbar, before starting the compressor.
-   * When ~200-400 mbar is reached, close Helium intake valve (Photo 9) and turn the compressor ON (Photo 15).
+   * When ~200-400 mbar is reached, close Helium intake valve (:numref:`hippo9`) and turn the compressor ON (:numref:`hippo15`).
 
-#. Use the Helium intake valve (Photo 9) and one of the XDS10 pumping valves (Photo 8) to reach the desired injection pressure.
+#. Use the Helium intake valve (:numref:`hippo9`) and one of the XDS10 pumping valves (:numref:`hippo8`) to reach the desired injection pressure.
 
 #. This should be it.
 
-   * If purging is needed, turn the compressor off (Photo 15), open the XDS10 pumping valve (Photo 8), and go to point 17 and proceed.
+   * If purging is needed, turn the compressor off (:numref:`hippo15`), open the XDS10 pumping valve (:numref:`hippo8`), and go to point 17 and proceed.
    * Make sure that if you plan to inject Helium, you close the two beam line gate valves as described in point 1.
 
 #. Done.
@@ -145,40 +145,40 @@ This procedure starts assuming the Jet is in recirculation mode.
 
 #. Close the two beam line gate valves:
 
-   * The one at the wall before the quad triplet (Photo 4).
-   * The one between Q2 and B1 (Photo 5).
-   * This isolates HIPPO from the rest of St. George (Photo 6).
+   * The one at the wall before the quad triplet (:numref:`hippo4`).
+   * The one between Q2 and B1 (:numref:`hippo5`).
+   * This isolates HIPPO from the rest of St. George (:numref:`hippo6`).
 
-#. If using, turn the compressor off (Photo 15).
+#. If using, turn the compressor off (:numref:`hippo15`).
 
-#. Open one of the XDS10 pumping valves (Photo 8) to remove the helium.
+#. Open one of the XDS10 pumping valves (:numref:`hippo8`) to remove the helium.
 
-#. Close the Jet valve (Photo 8).
+#. Close the Jet valve (:numref:`hippo8`).
 
 #. When the vacuum in the recirculation zone, as read on the LabVIEW (or Hornet 2 CG1), reaches ~1E-1 mbar:
 
-   * Close the recirculation valve (Photo 8).
-   * Quickly open the XDS35 exhaust valve (Photo 2).
+   * Close the recirculation valve (:numref:`hippo8`).
+   * Quickly open the XDS35 exhaust valve (:numref:`hippo2`).
 
-#. Close the chamber and catcher gate valve (Photo 13).
+#. Close the chamber and catcher gate valve (:numref:`hippo13`).
 
-#. Remove the chamber and catcher gate valve override (Photo 13).
+#. Remove the chamber and catcher gate valve override (:numref:`hippo13`).
 
-#. Close the Jet mode turbo backing (Photo 12).
+#. Close the Jet mode turbo backing (:numref:`hippo12`).
 
 #. Stop the 5 roots-blower in the LabVIEW.
 
-#. Close the two roots-blower backing valves (Photo 2).
+#. Close the two roots-blower backing valves (:numref:`hippo2`).
 
-#. Open the vacuum mode turbo backing valve (Photo 2).
+#. Open the vacuum mode turbo backing valve (:numref:`hippo2`).
 
-#. To keep the recirculation zone under decent vacuum, open the second XDS10 pumping valve (Photo 8).
+#. To keep the recirculation zone under decent vacuum, open the second XDS10 pumping valve (:numref:`hippo8`).
 
-#. Close the Helium bottle (Photo 10), both the regulator and the exit valve.
+#. Close the Helium bottle (:numref:`hippo10`), both the regulator and the exit valve.
 
 #. If the roots blower are at a temperature (close to the motor of the biggest one) at which you can leave your hand on:
 
-   * Shutdown the power to the roots blower on the wall panel (Photo 11).
+   * Shutdown the power to the roots blower on the wall panel (:numref:`hippo11`).
    * If not, leave it overnight before shutting the power off.
 
 #. Done.
@@ -189,7 +189,7 @@ This procedure starts assuming the Jet is in recirculation mode.
 
 Venting HIPPO to atmosphere 
 ---------------------------
-#. Close the vacuum mode turbo valve (Photo 2).
+#. Close the vacuum mode turbo valve (:numref:`hippo2`).
 
 #. Turn off all 5 turbo pumps (Photo XXX).
 
@@ -276,7 +276,7 @@ Hornet Gauge Guide
 
 .. _hippo1:
 
-.. figure:: images/hippo/hippohowtopic.PNG
+.. figure:: images/hippohowtopic.PNG
 
    Caption for the figure.
 
