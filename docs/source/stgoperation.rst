@@ -9,13 +9,14 @@ St. George Magnet Controls
 
 .. _stgmagcontrols:
 
-.. figure:: /images/magnetcontrols.PNG
+.. figure:: images/magnetcontrols.PNG
 
    :alt: Logo
    :align: center
    :width: 240px
 
    Link me!
+
 
 blah blah :numref:`_stgmagcontrols`
 
