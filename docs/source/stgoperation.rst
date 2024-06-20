@@ -18,7 +18,7 @@ St. George Magnet Controls
    Link me!
 
 
-blah blah :numref:`_stgmagcontrols`
+blah blah :numref:`stgmagcontrols`
 
 Wien Filter Operation
 ---------------------
