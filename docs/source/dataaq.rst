@@ -81,6 +81,9 @@ Now we need to actually compile evt2root in this directory so that you can run t
 
 Next you want to remove the build directory,
 
+.. note::
+    The -r in the remove command is for recursive and will delete EVERYTHING in the build directory. Be careful using that command. 
+
 .. code-block:: console
 
     rm -r build
