@@ -19,11 +19,11 @@ St. George Slits
    
 St. George Horizontal Acceptance
 -------------------
-.. figure:: images/stghorizvert.png
+.. figure:: images/stghorizvert.PNG
    :width: 600px
 
 St. George Vertical Acceptance
 -------------------
-.. figure:: images/stgvertaccept.png
+.. figure:: images/stgvertaccept.PNG
    :width: 600px
 
