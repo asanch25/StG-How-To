@@ -72,6 +72,11 @@ The Wien filter is the location where the majority of the rejection of the prima
 
 The Wien filter preforms the mass separation in the case of an (:math:`\alpha` , :math:`\gamma`) reaction. Due to the beam and the recoil having the same momentum due to momentum conservation, in tuning the Wien filter for a specific velocity, we are actually allowing a particle of a specific mass to pass through. 
 
+TOF vs Energy
+------------
+
+
+
 Acceptance
 ----------
 .. figure:: images/ag.PNG
