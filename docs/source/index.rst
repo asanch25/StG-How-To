@@ -10,11 +10,11 @@ Welcome to the St. George How to Guide!
 
 #. General St. George information
 #. St. George Operation
-.. 
-    .. #. Energy Change Procedure 
 #. HIPPO Guide
 #. Data retrieval and conversion
 
+
+.. #. Energy Change Procedure 
 
 .. note::
 
