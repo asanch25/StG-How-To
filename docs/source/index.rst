@@ -33,7 +33,7 @@ Contents
    wfoperation
    cup current recording
 
-   energyprocedure
+   .. energyprocedure
    
    
 
