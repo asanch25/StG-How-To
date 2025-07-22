@@ -53,7 +53,7 @@ One of the 4 windows that opened when you loaded SpecTcl is labeled ``treegui``.
 
 .. figure:: images/treegui.png
 
-   The ``treegui`` window before and after loading the definition file
+   The ``treegui`` window before and after loading the definition file.
 
 Unless there is some sort of error that occurs, that should be it for loading the definition file.
 
@@ -62,7 +62,23 @@ Load the SpecTcl window configuration
 
 Now that we have set up the SpecTcl definition file so that we have all the spectra we want, now we need to setup the actual SpecTcl ``Xamine`` window so that we can see them. In the ``Xamine`` window click ``File`` -> ``Read Configuration`` and then select ``gated_spectra.win``. This will load all the relevant spectra that we may want to look at during a St. George experiment.
 
+.. figure:: images/spectclwindow.PNG
 
+   The ``Xamine`` window before and after loading the window configuration file.
+
+As a quick reference, this is currently how the spectra are laid out in terms of what they actually are.
+
+.. figure:: images/spectralayout.png
+
+   The layout of the spectra on SpecTcl.
+
+
+Attach the data 
+-------------------------------------
+Now we have everything set up in terms of plotting the data, we actually need the data to plot. There are two ways for us to get the data:
+
+#. Loading a ``.evt`` file from a completed run
+#. Attaching to the online data for a live run
 
 
 
