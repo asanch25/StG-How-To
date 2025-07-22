@@ -95,7 +95,7 @@ One of the SpecTcl windows that popped up when we loaded it allows us to either 
 
 To ``Attach online`` click attach online and you will be met with another menu with some additional settings. For right now, all you have to do is select ``ring12`` and hit ok. Once this is done SpecTcl will be attached to the data that you will be taking during the run, and give live updates. 
 
-.. figure:: images/attachtonline.PNG
+.. figure:: images/attachonline.PNG
 
    The ``Attach online`` interface.
 
