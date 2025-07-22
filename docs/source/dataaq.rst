@@ -10,6 +10,7 @@ To start up data aquitisition (DAQ), there are a few things you need to do.
 #. Start the Scaler, Readout, and SpecTcl programs
 #. Load the SpecTcl config file
 #. Load the SpecTcl window configuration
+#. Attach the data 
 
 Log into stgdaq
 --------------------------
@@ -49,6 +50,17 @@ Load the SpecTcl config file
 Now that we have opened up all the relevant programs, we need to tell SpecTcl the parameters we want to be displayed/calculated. This is done with a .tcl definition file which allows us to define parameters, calculate new parameters based off of existing ones, and define the spectra that we want to see plotted. The current definition file that I have written is ``gated_spectra.tcl``. However, for SpecTcl to actually use that configuration file, we need to load it. 
 
 One of the 4 windows that opened when you loaded SpecTcl is labeled ``treegui``. This is where we will load the definition file. In the top right of the window you have the option to load a definition file. Click load and select ``gated_spectra.tcl``. After selecting that the ``treegui`` window should be populated with all of the spectra that we want. 
+
+.. figure:: images/treegui.png
+
+   The ``treegui`` window before and after loading the definition file
+
+Unless there is some sort of error that occurs, that should be it for loading the definition file.
+
+Load the SpecTcl window configuration
+-------------------------------------
+
+Now that we have set up the SpecTcl definition file so that we have all the spectra we want, now we need to setup the actual SpecTcl ``Xamine`` window so that we can see them. In the ``Xamine`` window click ``File`` -> ``Read Configuration`` and then select ``gated_spectra.win``. This will load all the relevant spectra that we may want to look at during a St. George experiment.
 
 
 
