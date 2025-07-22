@@ -47,6 +47,11 @@ It may take a moment for the SpecTcl program to fully open, so give it a moment 
 
 Load the SpecTcl config file
 ----------------------------
+
+.. warning::
+
+   If you are going to make ANY changes to ``gated_spectra.tcl`` do it in the file itself, rather than trying to do it through ``treegui``. Doing it in ``treegui`` and saving the changes will restructure the file and completely remove the comments in the file :)
+
 Now that we have opened up all the relevant programs, we need to tell SpecTcl the parameters we want to be displayed/calculated. This is done with a .tcl definition file which allows us to define parameters, calculate new parameters based off of existing ones, and define the spectra that we want to see plotted. The current definition file that I have written is ``gated_spectra.tcl``. However, for SpecTcl to actually use that configuration file, we need to load it. 
 
 One of the 4 windows that opened when you loaded SpecTcl is labeled ``treegui``. This is where we will load the definition file. In the top right of the window you have the option to load a definition file. Click load and select ``gated_spectra.tcl``. After selecting that the ``treegui`` window should be populated with all of the spectra that we want. 
