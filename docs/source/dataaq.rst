@@ -5,10 +5,16 @@ Data Retrieval
 DAQ Operation
 --------------------------
 To start up data aquitisition (DAQ), there are a few things you need to do. 
+
 #. Log into the stgdaq computer
 #. Start the Scaler, Readout, and SpecTCL programs
 #. Load the SpecTCL config file
 #. Load the SpecTCL window configuration
+
+Log into stgdaq
+--------------------------
+To log into the stgdaq computer, I recommend using MobaXterm as you will need several terminal windows open to run the DAQ programs. 
+
 
 
 stgdaq
