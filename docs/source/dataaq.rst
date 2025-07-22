@@ -7,14 +7,48 @@ DAQ Operation
 To start up data aquitisition (DAQ), there are a few things you need to do. 
 
 #. Log into the stgdaq computer
-#. Start the Scaler, Readout, and SpecTCL programs
-#. Load the SpecTCL config file
-#. Load the SpecTCL window configuration
+#. Start the Scaler, Readout, and SpecTcl programs
+#. Load the SpecTcl config file
+#. Load the SpecTcl window configuration
 
 Log into stgdaq
 --------------------------
 To log into the stgdaq computer, I recommend using MobaXterm as you will need several terminal windows open to run the DAQ programs. 
 
+.. code-block:: console
+
+    user: stgdet
+    remote host: stgdaq2.phys.nd.edu
+    password: ask someone :)
+
+Start the Scaler, Readout, and SpecTcl programs
+-----------------------------------------------
+You will need three separate terminals open for this. Now that we have logged into the DAQ computer, we have to load the container to run the various programs that we will use to collect and monitor data. In each of the three terminals enter the command:
+
+.. code-block:: console
+
+    ./singularity_fribDAQ/bookworm.sh
+    
+This will load the container needed for each program. Now in each individual terminal the three programs we need are started by executing the goScaler, goReadout, and goSpecTcl scripts as follows:
+
+.. code-block:: console
+
+    #starting the scaler program
+    ./StGeorge/Scaler/goScaler
+
+    #starting the readout program
+    ./StGeorge/Readout/goReadout
+
+    #starting the spectcl program
+    ./StGeorge/SpecTcl/goSpecTcl
+    
+It may take a moment for the SpecTcl program to fully open, so give it a moment to fully load. 
+
+Load the SpecTcl config file
+----------------------------
+Now that we have opened up all the relevant programs, we need to tell SpecTcl the parameters we want to be displayed/calculated. This is done with a .tcl configuration file which allows us to define parameters, calculate new parameters based off of existing ones, and define the spectra that we want to see plotted. The current configuration file that I have written is ``gated_spectra.tcl``. However, for SpecTcl to actually use that configuration file, we need to load it. 
+
+One of the 4 windows that opened when you loaded SpecTcl is labeled ``gated_spectra.tcl``. This is where we will load the configuration file.
 
 
 stgdaq
