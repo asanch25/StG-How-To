@@ -1,9 +1,6 @@
-Data Retrieval
+DAQ Operation
 ==============
 
-
-DAQ Operation
---------------------------
 To start up data aquitisition (DAQ), there are a few things you need to do. 
 
 #. Log into the stgdaq computer
@@ -109,8 +106,11 @@ To ``Attach to file`` press attach to file and you will be met with a file brows
 
 
 
-stgdaq
---------------------------
+
+
+
+Data Retrieval
+==============
 
 
 Backing up .evt files
