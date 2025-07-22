@@ -11,6 +11,7 @@ To start up data aquitisition (DAQ), there are a few things you need to do.
 #. Load the SpecTcl config file
 #. Load the SpecTcl window configuration
 #. Attach the data 
+#. Start a run
 
 Log into stgdaq
 --------------------------
@@ -82,8 +83,29 @@ Attach the data
 -------------------------------------
 Now we have everything set up in terms of plotting the data, we actually need the data to plot. There are two ways for us to get the data:
 
-#. Loading a ``.evt`` file from a completed run
 #. Attaching to the online data for a live run
+#. Attaching an ``.evt`` file from a completed run
+
+
+One of the SpecTcl windows that popped up when we loaded it allows us to either attach online or from a file. It is the bright colorful window that has those exact options on it. 
+
+.. figure:: images/spectclattach.PNG
+
+   The SpecTcl control window.
+
+To ``Attach online`` click attach online and you will be met with another menu with some additional settings. For right now, all you have to do is select ``ring12`` and hit ok. Once this is done SpecTcl will be attached to the data that you will be taking during the run, and give live updates. 
+
+.. figure:: images/attachtonline.PNG
+
+   The ``Attach online`` interface.
+
+
+To ``Attach to file`` press attach to file and you will be met with a file browser. You will need to navigate to where the ``.evt`` files from previous runs are saved. Once you select the file, it will begin loading in SpecTcl. This process might take a while depending on the amount of data.
+
+.. figure:: images/attachtofile.PNG
+
+   The ``Attach to file`` interface.
+
 
 
 
